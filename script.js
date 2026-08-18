@@ -14,9 +14,9 @@ function getComputerChoice() {
   }
 }
 
-function getHumanChoice() {
-  return prompt("Choose rock, paper, or scissors:");
-}
+// function getHumanChoice() {
+//   return prompt("Choose rock, paper, or scissors:");
+// }
 
 function playGame() {
   let humanScore = 0;
@@ -40,12 +40,8 @@ function playGame() {
     }
   }
 
-  for (let i = 0; i < 5; i++) {
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
-
-    playRound(humanSelection, computerSelection);
-  }
+    playRound(getHumanChoice(), getComputerChoice());
+  
 
   console.log(`Your score: ${humanScore}`);
   console.log(`Computer score: ${computerScore}`);

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#btn-container {
+    border: 2px solid red;
+    width: 70vw;
+    margin: 64px auto; 
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
