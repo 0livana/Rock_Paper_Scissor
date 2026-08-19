@@ -5,10 +5,31 @@
 }
 
 #btn-container {
-    border: 2px solid red;
-    width: 70vw;
+    /* border: 2px solid red; */
+    width: 70%;
     margin: 64px auto; 
     padding: 16px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px 0; 
+    
+}
+
+.btn {
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#outcome{
+    /* border: 2px blue dotted; */
+    width: 60%;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
 }
